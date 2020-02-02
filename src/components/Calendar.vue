@@ -19,6 +19,6 @@
 <style scoped>
   .calendar {
     width: 50%;
-    margin: auto;
+    margin: 80px auto;
   }
 </style>
