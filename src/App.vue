@@ -2,20 +2,23 @@
   <div id="app">
     <Header />
     <Calendar />
+    <TodoList />
   </div>
 </template>
 
 <script>
 import Header from './components/Header';
 import Calendar from './components/Calendar';
+import TodoList from './components/TodoList';
 
 export default {
   name: 'app',
   components: {
     Header,
-    Calendar
+    Calendar,
+    TodoList
   },
-}
+};
 </script>
 
 <style>
@@ -28,4 +31,7 @@ export default {
   margin: 0;
   padding: 0;
 }
+  h3 {
+    font-size: 32px;
+  }
 </style>
