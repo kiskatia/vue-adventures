@@ -1,10 +1,6 @@
 <template>
   <div class="header">
-    <!-- <div class="skew"> -->
-      <!-- <div class="bg"></div> -->
-      <!-- <h1 class="animated lightSpeedIn">Start your vue adventure!</h1> -->
       <h1 class="text">Start your vue adventure!</h1>
-    <!-- </div> -->
   </div>
 </template>
 
@@ -21,8 +17,9 @@ export default {
 <style scoped>
 .header {
   background-image: linear-gradient(#258e8e, #85e0e0);
-  height: 660px;
-  transform: skewY(-6deg);
+  height: 682px;
+  width: 100%;
+  /*transform: skewY(-6deg);*/
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -35,8 +32,8 @@ export default {
     font-size: 140px;
     text-align: center;
     margin: 0 auto;
+    padding-top: 120px;
 
-    /*starry night test*/
     background-color:black;
     background-image:
     radial-gradient(white, rgba(255,255,255,.2) 3px, transparent 40px),
@@ -51,28 +48,25 @@ export default {
     color: transparent;
 }
 
-h1 {
-  padding-top: 120px;
-  font-size: 48px;
+@media only screen and (max-width: 850px) {
+  .header {
+    height: 400px;
+    width: auto;
+  }
+  .text {
+    font-size: 80px;
+    padding-top: 80px;
+  }
 }
 
-/*.skew {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-}*/
-
-/*.bg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(#258e8e, #85e0e0);
-    transform: skewY(-8deg);
-    transform-origin: top left;
-}*/
-
+@media only screen and (max-width: 650px) {
+  .header {
+    height: 300px;
+    width: auto;
+  }
+  .text {
+    font-size: 54px;
+    padding: 40px 10px 0;
+  }
+}
 </style>
