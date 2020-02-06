@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
 
-.todo-container { padding: 100px 0; margin: auto 100px; }
+.todo-container { padding: 100px 0; margin: auto 200px; }
 
 #todo {
   width: 100%;
@@ -71,17 +71,17 @@ export default {
 h1 { 
   font-size: 30px;
   color: white; 
-  padding: 20px 0 0 0;
+  padding: 20px 0 0 20px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 h2 { 
   font-size: 20px; 
   font-weight: 400; 
-  padding: 20px 0 0 0;
+  padding: 20px 0 20px 20px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 button {
@@ -134,7 +134,7 @@ input[type='checkbox'] { appearance: none; display: none; }
 .item:hover { background-color: rgba(255, 255, 255, 0.15); }
 
 .item label {
-  width: 85%;
+  width: 100%;
   padding: 20px 40px;
   font-size: 20px;
   word-break: break-word;

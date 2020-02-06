@@ -18,7 +18,7 @@
 </script>
 
 <style scoped>
-.calendar-container { padding: 100px 0; margin: auto 100px; }
+.calendar-container { padding: 100px 0; margin: auto 200px; }
 
 .calendar {
   box-shadow:
