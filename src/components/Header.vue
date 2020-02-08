@@ -32,7 +32,7 @@ export default {
     text-align: center;
     margin: 0 auto;
     padding-top: 120px;
-    background-image: linear-gradient(to right, #c2d6d6, #c2d6d6, #00b3b3, #0099cc, #132639);
+    background-image: linear-gradient(to right, #cdffeb, #cdffeb, #009f9d, #07456f, #0f0a3c);
     background-size: 500%;
     animation: bg-animation 4s infinite alternate;
     background-clip: text;
