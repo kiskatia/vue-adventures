@@ -1,6 +1,6 @@
 <template>
   <div class="calendar-container">
-    <h3>First, select a date range for your adventure.</h3>
+    <h3 id="calendar-header">First, select a date range for your adventure.</h3>
     <v-date-picker
       class="calendar"
       mode="range"
@@ -18,7 +18,7 @@
 </script>
 
 <style scoped>
-.calendar-container { padding: 100px 0; margin: auto 200px; }
+.calendar-container { padding: 100px 0 70px; margin: auto 200px; }
 
 .calendar {
   box-shadow:

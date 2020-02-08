@@ -1,6 +1,6 @@
 <template>
   <div class="todo-container">
-    <h3>Second, put together a task list for the adventure.</h3>
+    <h3 id="todo-header">Second, put together a task list for the adventure.</h3>
     <div id="todo">
       <h1>Adventure Todo List</h1>
       <form @submit.prevent="addItem">
@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
 
-.todo-container { padding: 100px 0; margin: auto 200px; }
+.todo-container { padding: 150px 0; margin: auto 200px; }
 
 #todo {
   width: 100%;
