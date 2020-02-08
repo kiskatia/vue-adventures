@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <img class="character" src="./assets/character.png">
-    <p>This is an interactive single page app built using Vue.js. It's designed to take you through multiple steps and tasks to prepare for an adventure. Continue scrolling to complete the components as they go and enjoy! <i>(in production with more to be added soon)</i></p>
+    <p>This is a single page app built using Vue.js. It's designed to take you through multiple steps and tasks to prepare for an adventure. Continue scrolling to complete the components as they go and enjoy! <i>(in production with more to be added soon)</i></p>
     <button v-scroll-to="'#calendar-header'">
       Go to step one.
     </button>
@@ -55,6 +55,7 @@ button {
   font-size: 14px;
   transition: all 0.5s ease;
   outline: none;
+  cursor: pointer;
 }
 
 button:hover {

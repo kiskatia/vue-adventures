@@ -2,7 +2,6 @@
   <div class="todo-container">
     <h3 id="todo-header">Second, put together a task list for the adventure.</h3>
     <div id="todo">
-      <h1>Adventure Todo List</h1>
       <form @submit.prevent="addItem">
         <input type="text" id="new-todo" v-model="newTodo" placeholder="Tasks for adventure?"/>
         <button type="submit">+</button>
@@ -109,14 +108,14 @@ input[type="text"] {
   padding: 10px 20px;
   font-size: 20px;
   background: transparent;
-  color: black;
-  background: #258e8e;
+  color: #cdffeb;
+  background: #0f0a3c;
   outline: 0;
   border: 0;
   transition: all ease-out 0.3s;
 }
 
-input[type="text"]::placeholder { color: white; }
+input[type="text"]::placeholder { color: #cdffeb; }
 
 input[type='checkbox'] { appearance: none; display: none; }
 
@@ -156,7 +155,7 @@ form button, .item button { width: 15%; }
 
 .item button { line-height: 1.0; opacity: 0; }
 
-.item:hover button { opacity: 1; }
+.item:hover button { opacity: 1; background-color: transparent;}
 
 .slide-enter-active, .slide-leave-active {
   transition: all 0.5s ease;
