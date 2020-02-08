@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-      <h1 class="text animated lightSpeedIn">Start your vue adventure!</h1>
+      <h1 class="text">Start your vue adventure!</h1>
   </div>
 </template>
 
